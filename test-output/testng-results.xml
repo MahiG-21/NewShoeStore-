@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16630" started-at="2022-07-27T20:23:05Z" finished-at="2022-07-27T20:23:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16630" started-at="2022-07-27T20:23:05Z" finished-at="2022-07-27T20:23:22Z">
+      <class name="shoeStore.com.shoe.HomePageTest">
+        <test-method status="PASS" signature="driverInitilize()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="driverInitilize" is-config="true" duration-ms="4311" started-at="2022-07-27T20:23:05Z" finished-at="2022-07-27T20:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitilize -->
+        <test-method status="PASS" signature="janResult()[pri:1, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="janResult" duration-ms="381" started-at="2022-07-27T20:23:09Z" finished-at="2022-07-27T20:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- janResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="closeBrowser" is-config="true" duration-ms="113" started-at="2022-07-27T20:23:10Z" finished-at="2022-07-27T20:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="driverInitilize()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="driverInitilize" is-config="true" duration-ms="2139" started-at="2022-07-27T20:23:10Z" finished-at="2022-07-27T20:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitilize -->
+        <test-method status="PASS" signature="febResult()[pri:2, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="febResult" duration-ms="411" started-at="2022-07-27T20:23:12Z" finished-at="2022-07-27T20:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- febResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="closeBrowser" is-config="true" duration-ms="98" started-at="2022-07-27T20:23:12Z" finished-at="2022-07-27T20:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="driverInitilize()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="driverInitilize" is-config="true" duration-ms="2124" started-at="2022-07-27T20:23:12Z" finished-at="2022-07-27T20:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitilize -->
+        <test-method status="PASS" signature="marchresult()[pri:3, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="marchresult" duration-ms="878" started-at="2022-07-27T20:23:15Z" finished-at="2022-07-27T20:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marchresult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2022-07-27T20:23:15Z" finished-at="2022-07-27T20:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="driverInitilize()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="driverInitilize" is-config="true" duration-ms="2288" started-at="2022-07-27T20:23:15Z" finished-at="2022-07-27T20:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitilize -->
+        <test-method status="FAIL" signature="Aprresult()[pri:4, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="Aprresult" duration-ms="651" started-at="2022-07-27T20:23:18Z" finished-at="2022-07-27T20:23:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [April's Shoes] but found [March's Shoes]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [April's Shoes] but found [March's Shoes]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at shoeStore.com.shoe.HomePageTest.Aprresult(HomePageTest.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aprresult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="closeBrowser" is-config="true" duration-ms="97" started-at="2022-07-27T20:23:18Z" finished-at="2022-07-27T20:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="driverInitilize()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="driverInitilize" is-config="true" duration-ms="2226" started-at="2022-07-27T20:23:19Z" finished-at="2022-07-27T20:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitilize -->
+        <test-method status="PASS" signature="DecResult()[pri:6, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="DecResult" duration-ms="693" started-at="2022-07-27T20:23:21Z" finished-at="2022-07-27T20:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DecResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shoeStore.com.shoe.HomePageTest@6e1567f1]" name="closeBrowser" is-config="true" duration-ms="88" started-at="2022-07-27T20:23:21Z" finished-at="2022-07-27T20:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- shoeStore.com.shoe.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
